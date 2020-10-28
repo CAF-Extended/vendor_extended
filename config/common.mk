@@ -27,6 +27,13 @@ PRODUCT_COPY_FILES += \
     vendor/extended/prebuilt/common/bin/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
 endif
 
+# Default and google apps privapp permissions
+PRODUCT_COPY_FILES += \
+    vendor/extended/prebuilt/google/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml
+
+PRODUCT_PACKAGES += \
+    Flipendo
+
 # Cutout control overlays
 PRODUCT_PACKAGES += \
     HideCutout \
@@ -96,7 +103,6 @@ PRODUCT_PACKAGES += \
     rsync \
     zip
 	
-
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
 ifeq ($(TARGET_FACE_UNLOCK_SUPPORTED),true)
