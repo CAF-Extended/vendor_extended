@@ -14,6 +14,11 @@
 
 include vendor/extended/config/version.mk
 
+# Gapps
+ifeq ($(WITH_GAPPS),true)
+include vendor/extended/config/gapps.mk
+endif
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/extended/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
@@ -26,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/extended/prebuilt/common/bin/backuptool_ab.functions:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.functions \
     vendor/extended/prebuilt/common/bin/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
 endif
-
 
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED ?= true
