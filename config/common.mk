@@ -16,7 +16,7 @@ include vendor/extended/config/version.mk
 
 # Gapps
 ifeq ($(WITH_GAPPS),true)
-include vendor/extended/config/gapps.mk
+$(call inherit-product, vendor/extended/config/gapps.mk)
 endif
 
 # Backup Tool
