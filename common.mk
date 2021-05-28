@@ -13,6 +13,7 @@
 # limitations under the License.
 
 # Inherit common AOSP stuff
+
 $(call inherit-product, vendor/extended/config/common.mk)
 
 $(call inherit-product, vendor/extended/config/telephony.mk)

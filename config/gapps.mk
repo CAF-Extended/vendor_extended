@@ -1,5 +1,5 @@
 # Gapps
-$(call inherit-product, vendor/gapps/config.mk)
+include vendor/gapps/config.mk
 IS_PHONE := true
 
 # Common Overlay
@@ -10,4 +10,4 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS +=  \
     vendor/extended/overlay-gapps
     
-$(call inherit-product, vendor/extended/config/rro_overlays.mk)
+include vendor/extended/config/rro_overlays.mk
