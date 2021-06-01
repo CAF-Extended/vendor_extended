@@ -32,7 +32,9 @@ PRODUCT_COPY_FILES += \
     vendor/extended/prebuilt/google/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml
 
 PRODUCT_PACKAGES += \
-    Flipendo
+    Flipendo \
+    TurboAdapter \
+    TurboPrebuilt
 
 # Cutout control overlays
 PRODUCT_PACKAGES += \
