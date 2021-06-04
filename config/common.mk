@@ -121,6 +121,10 @@ ifeq ($(WITH_GAPPS), true)
 
 # Inherit GMS, Pixel Features, and Modules.
 $(call inherit-product, vendor/google/gms/config.mk)
+
+# Inherit Overlays
+$(call inherit-product, vendor/overlay/overlays.mk)
+
 # Pixel Features
 $(call inherit-product, vendor/google/pixel/config.mk)
 $(call inherit-product,vendor/extended/config/gapps.mk)
