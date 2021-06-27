@@ -74,7 +74,8 @@ PRODUCT_PACKAGES += \
     CalendarProvider \
     SyncProvider \
     SoundRecorder \
-    MusicPlayerGO
+    MusicPlayerGO \
+    GoogleCameraGo
 
 # Extra tools
 PRODUCT_PACKAGES += \
@@ -194,3 +195,4 @@ SOONG_CONFIG_aosp_vs_qva_aosp_or_qva := qva
 
 # Skip boot JAR checks.
 SKIP_BOOT_JARS_CHECK := true
+
