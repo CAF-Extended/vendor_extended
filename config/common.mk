@@ -62,6 +62,8 @@ PRODUCT_PACKAGES += \
     AlarmProvider \
     Calculator \
     Calendar \
+    NoCutoutOverlay \
+    AvoidAppsInCutoutOverlay \
     CellBroadcastReceiver \
     CertInstaller \
     Email \
