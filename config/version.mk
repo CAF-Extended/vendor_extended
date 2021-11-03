@@ -15,7 +15,6 @@
 CAFEX_RELEASE_VERSION = v3.0
 
 CAFEX_BUILD_TYPE ?= UNOFFICIAL
-CAFEX_BUILD_VARIANT ?=  VANILLA
 
 TARGET_PRODUCT_SHORT := $(subst cafex_,,$(CAFEX_BUILD))
 
@@ -23,9 +22,7 @@ ifeq ($(CAFEX_OFFICIAL), true)
 CAFEX_BUILD_TYPE := OFFICIAL
 endif
 
-ifeq ($(WITH_GAPPS), true)
 CAFEX_BUILD_VARIANT := GAPPS
-endif
 
 CAFEX_DATE_YEAR := $(shell date +%Y)
 CAFEX_DATE_MONTH := $(shell date +%m)
