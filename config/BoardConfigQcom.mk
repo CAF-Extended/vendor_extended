@@ -1,6 +1,9 @@
 # Bring in Qualcomm helper macros
 include vendor/extended/build/core/qcom_utils.mk
 
+# Include our Qualcomm Board configuration.
+include device/qcom/common/BoardConfigQcom.mk
+
 # Platform names
 MSMNILE := msmnile #SM8150
 MSMSTEPPE := sm6150

@@ -14,6 +14,9 @@
 
 include vendor/extended/config/version.mk
 
+# Include Common Qualcomm Device Tree.
+$(call inherit-product, device/qcom/common/common.mk)
+
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/extended/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
