@@ -77,6 +77,10 @@ PRODUCT_PACKAGES += \
     MusicPlayerGO \
     GoogleCameraGo
 
+# Pixel sysconfig from Pixel XL (Photos)
+PRODUCT_COPY_FILES += \
+    vendor/extended/prebuilt/common/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml \
+
 # Extra tools
 PRODUCT_PACKAGES += \
     e2fsck \
