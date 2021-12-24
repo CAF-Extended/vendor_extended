@@ -106,6 +106,8 @@
     <icon drawable="@drawable/themed_icon_family_link_ct" package="com.google.android.apps.kids.familylinkhelper" />
     <icon drawable="@drawable/themed_icon_files" package="com.alphainventor.filemanager" />
     <icon drawable="@drawable/themed_icon_files" package="com.android.documentsui" />
+    <icon drawable="@drawable/themed_icon_messages" package="com.android.messaging" />
+    <icon drawable="@drawable/themed_icon_dialer" package="com.android.dialer" />        
     <icon drawable="@drawable/themed_icon_files" package="com.google.android.apps.nbu.files" />
     <icon drawable="@drawable/themed_icon_files" package="com.google.android.documentsui" />
     <icon drawable="@drawable/themed_icon_find_my_device" package="com.google.android.apps.adm" />
