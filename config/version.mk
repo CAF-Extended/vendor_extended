@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-CAFEX_RELEASE_VERSION = v3.0
+CAFEX_RELEASE_VERSION = v3.1
 
 CAFEX_BUILD_TYPE ?= UNOFFICIAL
 
