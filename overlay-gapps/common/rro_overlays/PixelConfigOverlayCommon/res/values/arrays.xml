@@ -8,7 +8,6 @@
         <item>com.google.android.deskclock:Firing</item>
         <item>com.google.android.setupwizard</item>
         <item>com.google.android.apps.pixelmigrate</item>
-        <item>com.google.android.dialer</item>
         <item>com.google.android.googlequicksearchbox:com.google.android.apps.gsa.plugins.podcastplayer.channel</item>
     </array>
     <array name="config_notificationMsgPkgsAllowedAsConvos">
@@ -23,7 +22,6 @@
         <item>com.google.android.apps.restore</item>
     </array>
     <array name="config_priorityOnlyDndExemptPackages">
-        <item>com.google.android.dialer</item>
         <item>com.android.server.telecom</item>
         <item>android</item>
         <item>com.android.systemui</item>

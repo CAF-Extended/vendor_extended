@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
 /*
 ** Copyright 2020, Raphielscape LLC. and Haruka LLC.
 **
@@ -19,9 +18,6 @@
 <resources>
     <!-- Flag indicating if hac is enabled -->
     <bool name="hac_enabled">true</bool>
-
-    <!-- Class name for the default main Dialer activity -->
-    <string name="dialer_default_class">com.google.android.dialer.extensions.GoogleDialtactsActivity</string>
 
     <!-- Whether the device supports dialing emergency RTT calls when there's no SIM card installed
     -->
